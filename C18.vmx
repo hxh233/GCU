@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7145"
-	"mapversion" "59"
+	"mapversion" "60"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "59"
+	"mapversion" "60"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3929,10 +3929,10 @@ world
 		side
 		{
 			"id" "552"
-			"plane" "(-61.0859 3201 -1178.49) (101.05 3201 -1178.49) (101.051 3201 -284.593)"
+			"plane" "(-60.9961 3201 -1180.99) (101.14 3201 -1180.99) (101.141 3201 -276.099)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 -0.359375] 0.25"
+			"vaxis" "[0 0 -1 33.9736] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3940,9 +3940,9 @@ world
 		side
 		{
 			"id" "551"
-			"plane" "(-61.0859 3196 -284.583) (-61.0859 3201 -284.583) (101.05 3201 -284.583)"
+			"plane" "(-60.9961 3196 -276.09) (-60.9961 3201 -276.09) (101.14 3201 -276.09)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05A"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 -0.359375] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3951,9 +3951,9 @@ world
 		side
 		{
 			"id" "550"
-			"plane" "(101.051 3201 -1178.48) (-61.0898 3201 -1178.48) (-61.0898 3196 -1178.48)"
+			"plane" "(101.141 3201 -1180.99) (-61 3201 -1180.99) (-61 3196 -1180.99)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05A"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 -0.359375] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3962,10 +3962,10 @@ world
 		side
 		{
 			"id" "549"
-			"plane" "(-61.0872 3196 -1178.49) (-61.0872 3201 -1178.49) (-61.0872 3201 -284.593)"
+			"plane" "(-60.9974 3196 -1181) (-60.9974 3201 -1181) (-60.9974 3201 -276.099)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 33.9736] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3973,10 +3973,10 @@ world
 		side
 		{
 			"id" "548"
-			"plane" "(101.05 3201 -284.593) (101.05 3201 -1178.48) (101.05 3196 -1178.48)"
+			"plane" "(101.14 3201 -276.099) (101.14 3201 -1180.99) (101.14 3196 -1180.99)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 33.9736] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3984,10 +3984,10 @@ world
 		side
 		{
 			"id" "547"
-			"plane" "(101.051 3196 -1178.49) (-61.0898 3196 -1178.49) (-61.0859 3196 -284.593)"
+			"plane" "(101.141 3196 -1181) (-61 3196 -1181) (-60.9961 3196 -276.099)"
 			"material" "PLASTER/URBAN_PLASTERWALL_05A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 -0.359375] 0.25"
+			"vaxis" "[0 0 -1 33.9736] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

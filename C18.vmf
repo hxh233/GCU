@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7145"
-	"mapversion" "60"
+	"mapversion" "61"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "60"
+	"mapversion" "61"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2385,6 +2385,690 @@ world
 	}
 	solid
 	{
+		"id" "5880"
+		side
+		{
+			"id" "972"
+			"plane" "(-65.8321 -63 -812.856) (-65.8321 -255 -812.856) (565.833 -255 -812.856)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -313.242] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "971"
+			"plane" "(-65.8321 -255 -811.023) (-65.8321 -255 -812.854) (-65.8321 -63 -812.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 76.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "970"
+			"plane" "(565.834 -63 -811.023) (565.834 -63 -812.854) (565.834 -255 -812.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 76.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "969"
+			"plane" "(-65.8321 -63 -811.023) (-65.8321 -63 -812.854) (565.834 -63 -812.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -313.242] 0.25"
+			"vaxis" "[0 0 -1 76.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "968"
+			"plane" "(565.832 -255 -811.023) (565.832 -255 -812.854) (-65.8321 -255 -812.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -313.242] 0.25"
+			"vaxis" "[0 0 -1 76.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "967"
+			"plane" "(-65.8321 -255 -811.023) (-65.8321 -63 -811.023) (565.833 -63 -811.023)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -313.638] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5881"
+		side
+		{
+			"id" "978"
+			"plane" "(-489.998 -63 -812.835) (-489.998 -255 -812.835) (-65.8476 -255 -812.835)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -376.609] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "977"
+			"plane" "(-489.999 -255 -811) (-489.999 -255 -812.834) (-489.999 -63 -812.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 76.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "976"
+			"plane" "(-65.8475 -63 -811) (-65.8475 -63 -812.834) (-65.8475 -255 -812.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 76.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "975"
+			"plane" "(-490 -63 -811) (-490 -63 -812.834) (-65.8475 -63 -812.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -376.609] 0.25"
+			"vaxis" "[0 0 -1 76.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "974"
+			"plane" "(-65.8477 -255 -811) (-65.8477 -255 -812.834) (-489.996 -255 -812.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -376.609] 0.25"
+			"vaxis" "[0 0 -1 76.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "973"
+			"plane" "(-489.998 -255 -811) (-489.998 -63 -811) (-65.8476 -63 -811)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -376.609] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5882"
+		side
+		{
+			"id" "984"
+			"plane" "(-78.7383 3197 -813) (-78.7383 -63 -813) (87.1679 -63 -813)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -448.932] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "983"
+			"plane" "(-78.7396 -63 -811) (-78.7396 -63 -813) (-78.7396 3197 -813)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 84.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "982"
+			"plane" "(87.1679 3197 -811) (87.1679 3197 -813) (87.1679 -63 -813)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 84.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "981"
+			"plane" "(-78.7383 3197 -811) (-78.7383 3197 -813) (87.1679 3197 -813)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -448.932] 0.25"
+			"vaxis" "[0 0 -1 84.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "980"
+			"plane" "(87.1679 -63 -811) (87.1679 -63 -813) (-78.7383 -63 -813)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -448.932] 0.25"
+			"vaxis" "[0 0 -1 84.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "979"
+			"plane" "(-78.7383 -63 -811) (-78.7383 3197 -811) (87.1679 3197 -811)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -448.932] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5883"
+		side
+		{
+			"id" "1008"
+			"plane" "(-64.832 -63 -992.856) (-64.832 -255 -992.856) (566.833 -255 -992.856)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.242] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1007"
+			"plane" "(-64.832 -255 -991.023) (-64.832 -255 -992.854) (-64.832 -63 -992.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 380.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1006"
+			"plane" "(566.834 -63 -991.023) (566.834 -63 -992.854) (566.834 -255 -992.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 380.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1005"
+			"plane" "(-64.832 -63 -991.023) (-64.832 -63 -992.854) (566.834 -63 -992.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.242] 0.25"
+			"vaxis" "[0 0 -1 380.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1004"
+			"plane" "(566.832 -255 -991.023) (566.832 -255 -992.854) (-64.832 -255 -992.854)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.242] 0.25"
+			"vaxis" "[0 0 -1 380.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1003"
+			"plane" "(-64.832 -255 -991.023) (-64.832 -63 -991.023) (566.833 -63 -991.023)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.638] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5884"
+		side
+		{
+			"id" "1014"
+			"plane" "(-488.998 -63 -992.835) (-488.998 -255 -992.835) (-64.8475 -255 -992.835)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 131.391] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1013"
+			"plane" "(-488.999 -255 -991) (-488.999 -255 -992.834) (-488.999 -63 -992.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 380.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1012"
+			"plane" "(-64.8474 -63 -991) (-64.8474 -63 -992.834) (-64.8474 -255 -992.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 380.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1011"
+			"plane" "(-489 -63 -991) (-489 -63 -992.834) (-64.8474 -63 -992.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 131.391] 0.25"
+			"vaxis" "[0 0 -1 380.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1010"
+			"plane" "(-64.8476 -255 -991) (-64.8476 -255 -992.834) (-488.996 -255 -992.834)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 131.391] 0.25"
+			"vaxis" "[0 0 -1 380.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1009"
+			"plane" "(-488.998 -255 -991) (-488.998 -63 -991) (-64.8475 -63 -991)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 131.391] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5885"
+		side
+		{
+			"id" "1020"
+			"plane" "(-77.7383 3197 -993) (-77.7383 -63 -993) (88.168 -63 -993)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 59.068] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1019"
+			"plane" "(-77.7395 -63 -991) (-77.7395 -63 -993) (-77.7395 3197 -993)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 388.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1018"
+			"plane" "(88.168 3197 -991) (88.168 3197 -993) (88.168 -63 -993)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 -4] 0.25"
+			"vaxis" "[0 0 -1 388.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1017"
+			"plane" "(-77.7383 3197 -991) (-77.7383 3197 -993) (88.168 3197 -993)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 59.068] 0.25"
+			"vaxis" "[0 0 -1 388.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1016"
+			"plane" "(88.168 -63 -991) (88.168 -63 -993) (-77.7383 -63 -993)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 59.068] 0.25"
+			"vaxis" "[0 0 -1 388.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1015"
+			"plane" "(-77.7383 -63 -991) (-77.7383 3197 -991) (88.168 3197 -991)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 59.068] 0.25"
+			"vaxis" "[0 -1 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5886"
+		side
+		{
+			"id" "1044"
+			"plane" "(-64.666 -69 -1182.86) (-64.666 -261 -1182.86) (566.999 -261 -1182.86)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.906] 0.25"
+			"vaxis" "[0 -1 0 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1043"
+			"plane" "(-64.666 -261 -1181.02) (-64.666 -261 -1182.85) (-64.666 -69 -1182.85)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 20] 0.25"
+			"vaxis" "[0 0 -1 132.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1042"
+			"plane" "(567 -69 -1181.02) (567 -69 -1182.85) (567 -261 -1182.85)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 20] 0.25"
+			"vaxis" "[0 0 -1 132.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1041"
+			"plane" "(-64.666 -69 -1181.02) (-64.666 -69 -1182.85) (567 -69 -1182.85)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.906] 0.25"
+			"vaxis" "[0 0 -1 132.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1040"
+			"plane" "(566.998 -261 -1181.02) (566.998 -261 -1182.85) (-64.666 -261 -1182.85)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -317.906] 0.25"
+			"vaxis" "[0 0 -1 132.575] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1039"
+			"plane" "(-64.666 -261 -1181.02) (-64.666 -69 -1181.02) (566.999 -69 -1181.02)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -318.302] 0.25"
+			"vaxis" "[0 -1 0 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5887"
+		side
+		{
+			"id" "1050"
+			"plane" "(-488.832 -69 -1182.83) (-488.832 -261 -1182.83) (-64.6815 -261 -1182.83)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -381.273] 0.25"
+			"vaxis" "[0 -1 0 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1049"
+			"plane" "(-488.833 -261 -1181) (-488.833 -261 -1182.83) (-488.833 -69 -1182.83)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 20] 0.25"
+			"vaxis" "[0 0 -1 132.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1048"
+			"plane" "(-64.6814 -69 -1181) (-64.6814 -69 -1182.83) (-64.6814 -261 -1182.83)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 20] 0.25"
+			"vaxis" "[0 0 -1 132.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1047"
+			"plane" "(-488.834 -69 -1181) (-488.834 -69 -1182.83) (-64.6814 -69 -1182.83)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -381.273] 0.25"
+			"vaxis" "[0 0 -1 132.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1046"
+			"plane" "(-64.6816 -261 -1181) (-64.6816 -261 -1182.83) (-488.83 -261 -1182.83)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -381.273] 0.25"
+			"vaxis" "[0 0 -1 132.66] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1045"
+			"plane" "(-488.832 -261 -1181) (-488.832 -69 -1181) (-64.6815 -69 -1181)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -381.273] 0.25"
+			"vaxis" "[0 -1 0 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5888"
+		side
+		{
+			"id" "1056"
+			"plane" "(-77.5723 3207 -1183) (-77.5723 -69 -1183) (88.334 -69 -1183)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -453.596] 0.25"
+			"vaxis" "[0 -1 0 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1055"
+			"plane" "(-77.5735 -69 -1181) (-77.5735 -69 -1183) (-77.5735 3207 -1183)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 20] 0.25"
+			"vaxis" "[0 0 -1 140.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1054"
+			"plane" "(88.334 3207 -1181) (88.334 3207 -1183) (88.334 -69 -1183)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[0 1 0 20] 0.25"
+			"vaxis" "[0 0 -1 140.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1053"
+			"plane" "(-77.5723 3207 -1181) (-77.5723 3207 -1183) (88.334 3207 -1183)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -453.596] 0.25"
+			"vaxis" "[0 0 -1 140.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1052"
+			"plane" "(88.334 -69 -1181) (88.334 -69 -1183) (-77.5723 -69 -1183)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -453.596] 0.25"
+			"vaxis" "[0 0 -1 140.524] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1051"
+			"plane" "(-77.5723 -69 -1181) (-77.5723 3207 -1181) (88.334 3207 -1181)"
+			"material" "PLASTER/CEILINGTILES01_CHEAP"
+			"uaxis" "[1 0 0 -453.596] 0.25"
+			"vaxis" "[0 -1 0 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "7"
 		side
 		{
@@ -4458,690 +5142,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "2721"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5880"
-		side
-		{
-			"id" "972"
-			"plane" "(-65.8321 -63 -812.856) (-65.8321 -255 -812.856) (565.833 -255 -812.856)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -313.242] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "971"
-			"plane" "(-65.8321 -255 -811.023) (-65.8321 -255 -812.854) (-65.8321 -63 -812.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 76.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "970"
-			"plane" "(565.834 -63 -811.023) (565.834 -63 -812.854) (565.834 -255 -812.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 76.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "969"
-			"plane" "(-65.8321 -63 -811.023) (-65.8321 -63 -812.854) (565.834 -63 -812.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -313.242] 0.25"
-			"vaxis" "[0 0 -1 76.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "968"
-			"plane" "(565.832 -255 -811.023) (565.832 -255 -812.854) (-65.8321 -255 -812.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -313.242] 0.25"
-			"vaxis" "[0 0 -1 76.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "967"
-			"plane" "(-65.8321 -255 -811.023) (-65.8321 -63 -811.023) (565.833 -63 -811.023)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -313.638] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5881"
-		side
-		{
-			"id" "978"
-			"plane" "(-489.998 -63 -812.835) (-489.998 -255 -812.835) (-65.8476 -255 -812.835)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -376.609] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "977"
-			"plane" "(-489.999 -255 -811) (-489.999 -255 -812.834) (-489.999 -63 -812.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 76.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "976"
-			"plane" "(-65.8475 -63 -811) (-65.8475 -63 -812.834) (-65.8475 -255 -812.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 76.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "975"
-			"plane" "(-490 -63 -811) (-490 -63 -812.834) (-65.8475 -63 -812.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -376.609] 0.25"
-			"vaxis" "[0 0 -1 76.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "974"
-			"plane" "(-65.8477 -255 -811) (-65.8477 -255 -812.834) (-489.996 -255 -812.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -376.609] 0.25"
-			"vaxis" "[0 0 -1 76.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "973"
-			"plane" "(-489.998 -255 -811) (-489.998 -63 -811) (-65.8476 -63 -811)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -376.609] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5882"
-		side
-		{
-			"id" "984"
-			"plane" "(-78.7383 3197 -813) (-78.7383 -63 -813) (87.1679 -63 -813)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -448.932] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "983"
-			"plane" "(-78.7396 -63 -811) (-78.7396 -63 -813) (-78.7396 3197 -813)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 84.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "982"
-			"plane" "(87.1679 3197 -811) (87.1679 3197 -813) (87.1679 -63 -813)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 84.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "981"
-			"plane" "(-78.7383 3197 -811) (-78.7383 3197 -813) (87.1679 3197 -813)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -448.932] 0.25"
-			"vaxis" "[0 0 -1 84.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "980"
-			"plane" "(87.1679 -63 -811) (87.1679 -63 -813) (-78.7383 -63 -813)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -448.932] 0.25"
-			"vaxis" "[0 0 -1 84.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "979"
-			"plane" "(-78.7383 -63 -811) (-78.7383 3197 -811) (87.1679 3197 -811)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -448.932] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5883"
-		side
-		{
-			"id" "1008"
-			"plane" "(-64.832 -63 -992.856) (-64.832 -255 -992.856) (566.833 -255 -992.856)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.242] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1007"
-			"plane" "(-64.832 -255 -991.023) (-64.832 -255 -992.854) (-64.832 -63 -992.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 380.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1006"
-			"plane" "(566.834 -63 -991.023) (566.834 -63 -992.854) (566.834 -255 -992.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 380.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1005"
-			"plane" "(-64.832 -63 -991.023) (-64.832 -63 -992.854) (566.834 -63 -992.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.242] 0.25"
-			"vaxis" "[0 0 -1 380.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1004"
-			"plane" "(566.832 -255 -991.023) (566.832 -255 -992.854) (-64.832 -255 -992.854)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.242] 0.25"
-			"vaxis" "[0 0 -1 380.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1003"
-			"plane" "(-64.832 -255 -991.023) (-64.832 -63 -991.023) (566.833 -63 -991.023)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.638] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5884"
-		side
-		{
-			"id" "1014"
-			"plane" "(-488.998 -63 -992.835) (-488.998 -255 -992.835) (-64.8475 -255 -992.835)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 131.391] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1013"
-			"plane" "(-488.999 -255 -991) (-488.999 -255 -992.834) (-488.999 -63 -992.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 380.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1012"
-			"plane" "(-64.8474 -63 -991) (-64.8474 -63 -992.834) (-64.8474 -255 -992.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 380.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1011"
-			"plane" "(-489 -63 -991) (-489 -63 -992.834) (-64.8474 -63 -992.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 131.391] 0.25"
-			"vaxis" "[0 0 -1 380.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1010"
-			"plane" "(-64.8476 -255 -991) (-64.8476 -255 -992.834) (-488.996 -255 -992.834)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 131.391] 0.25"
-			"vaxis" "[0 0 -1 380.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1009"
-			"plane" "(-488.998 -255 -991) (-488.998 -63 -991) (-64.8475 -63 -991)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 131.391] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5885"
-		side
-		{
-			"id" "1020"
-			"plane" "(-77.7383 3197 -993) (-77.7383 -63 -993) (88.168 -63 -993)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 59.068] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1019"
-			"plane" "(-77.7395 -63 -991) (-77.7395 -63 -993) (-77.7395 3197 -993)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 388.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1018"
-			"plane" "(88.168 3197 -991) (88.168 3197 -993) (88.168 -63 -993)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 388.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1017"
-			"plane" "(-77.7383 3197 -991) (-77.7383 3197 -993) (88.168 3197 -993)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 59.068] 0.25"
-			"vaxis" "[0 0 -1 388.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1016"
-			"plane" "(88.168 -63 -991) (88.168 -63 -993) (-77.7383 -63 -993)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 59.068] 0.25"
-			"vaxis" "[0 0 -1 388.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1015"
-			"plane" "(-77.7383 -63 -991) (-77.7383 3197 -991) (88.168 3197 -991)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 59.068] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5886"
-		side
-		{
-			"id" "1044"
-			"plane" "(-64.666 -69 -1182.86) (-64.666 -261 -1182.86) (566.999 -261 -1182.86)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.906] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1043"
-			"plane" "(-64.666 -261 -1181.02) (-64.666 -261 -1182.85) (-64.666 -69 -1182.85)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 132.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1042"
-			"plane" "(567 -69 -1181.02) (567 -69 -1182.85) (567 -261 -1182.85)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 132.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1041"
-			"plane" "(-64.666 -69 -1181.02) (-64.666 -69 -1182.85) (567 -69 -1182.85)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.906] 0.25"
-			"vaxis" "[0 0 -1 132.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1040"
-			"plane" "(566.998 -261 -1181.02) (566.998 -261 -1182.85) (-64.666 -261 -1182.85)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -317.906] 0.25"
-			"vaxis" "[0 0 -1 132.575] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1039"
-			"plane" "(-64.666 -261 -1181.02) (-64.666 -69 -1181.02) (566.999 -69 -1181.02)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -318.302] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5887"
-		side
-		{
-			"id" "1050"
-			"plane" "(-488.832 -69 -1182.83) (-488.832 -261 -1182.83) (-64.6815 -261 -1182.83)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -381.273] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1049"
-			"plane" "(-488.833 -261 -1181) (-488.833 -261 -1182.83) (-488.833 -69 -1182.83)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 132.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1048"
-			"plane" "(-64.6814 -69 -1181) (-64.6814 -69 -1182.83) (-64.6814 -261 -1182.83)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 132.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1047"
-			"plane" "(-488.834 -69 -1181) (-488.834 -69 -1182.83) (-64.6814 -69 -1182.83)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -381.273] 0.25"
-			"vaxis" "[0 0 -1 132.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1046"
-			"plane" "(-64.6816 -261 -1181) (-64.6816 -261 -1182.83) (-488.83 -261 -1182.83)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -381.273] 0.25"
-			"vaxis" "[0 0 -1 132.66] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1045"
-			"plane" "(-488.832 -261 -1181) (-488.832 -69 -1181) (-64.6815 -69 -1181)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -381.273] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5888"
-		side
-		{
-			"id" "1056"
-			"plane" "(-77.5723 3207 -1183) (-77.5723 -69 -1183) (88.334 -69 -1183)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -453.596] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1055"
-			"plane" "(-77.5735 -69 -1181) (-77.5735 -69 -1183) (-77.5735 3207 -1183)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 140.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1054"
-			"plane" "(88.334 3207 -1181) (88.334 3207 -1183) (88.334 -69 -1183)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 140.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1053"
-			"plane" "(-77.5723 3207 -1181) (-77.5723 3207 -1183) (88.334 3207 -1183)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -453.596] 0.25"
-			"vaxis" "[0 0 -1 140.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1052"
-			"plane" "(88.334 -69 -1181) (88.334 -69 -1183) (-77.5723 -69 -1183)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -453.596] 0.25"
-			"vaxis" "[0 0 -1 140.524] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1051"
-			"plane" "(-77.5723 -69 -1181) (-77.5723 3207 -1181) (88.334 3207 -1181)"
-			"material" "PLASTER/CEILINGTILES01_CHEAP"
-			"uaxis" "[1 0 0 -453.596] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
